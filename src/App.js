@@ -1,7 +1,19 @@
+import Navbar from "./components/Navbar.jsx";
+import Home from "./components/Home.jsx";
+import About from "./components/About.jsx";
+import Portfolio from "./components/Portfolio.jsx";
+import Experience from "./components/Experience.jsx";
+import Contact from "./components/Contact.jsx";
+
 function App() {
   return (
     <div>
-      <h1 className="text-4xl font-bold bg-navigation">testing app working</h1>
+      <Navbar />
+      <Home />
+      <About />
+      <Portfolio />
+      <Experience />
+      <Contact />
     </div>
   );
 }
