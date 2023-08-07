@@ -12,23 +12,8 @@ const Navbar = () => {
       </div>
 
       {/*menu*/}
-      <div>
-        <ul className="flex">
-          <li>Home</li>
-          <li>About</li>
-          <li>Portfolio</li>
-          <li>Experience</li>
-          <li>Contact</li>
-        </ul>
-      </div>
 
-      {/*Hamburger*/}
-      <div className="hidden">
-        <FaBars />
-      </div>
-
-      {/*mobile menu */}
-      <ul className="hidden">
+      <ul className="hidden md:flex">
         <li>Home</li>
         <li>About</li>
         <li>Portfolio</li>
@@ -36,8 +21,22 @@ const Navbar = () => {
         <li>Contact</li>
       </ul>
 
+      {/*Hamburger*/}
+      <div className="md:hidden z-10">
+        <FaBars />
+      </div>
+
+      {/*mobile menu */}
+      <ul className="absolute top-0 left-0 w-full h-screen bg-navigation flex flex-col justify-center items-center">
+        <li className="py-6 text-4xl">Home</li>
+        <li className="py-6 text-4xl">About</li>
+        <li className="py-6 text-4xl">Portfolio</li>
+        <li className="py-6 text-4xl">Experience</li>
+        <li className="py-6 text-4xl">Contact</li>
+      </ul>
+
       {/*social icons*/}
-      <div></div>
+      <div className="hidden"></div>
     </div>
   );
 };
