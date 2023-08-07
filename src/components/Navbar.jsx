@@ -1,4 +1,5 @@
 import React from "react";
+import { FaBars, FaTimes } from "react-icons/fa";
 
 const Navbar = () => {
   return (
@@ -9,11 +10,23 @@ const Navbar = () => {
         </h1>
         <p className="text-3xl cursor-pointer">Aspiring To Achieve</p>
       </div>
+
+      {/*menu*/}
       <div>
         <ul>
-          <li></li>
+          <li>Home</li>
+          <li>About</li>
+          <li>Portfolio</li>
+          <li>Experience</li>
+          <li>Contact</li>
         </ul>
       </div>
+
+      {/*Hamburger*/}
+      <div></div>
+
+      {/*mobile menu */}
+      <div></div>
     </div>
   );
 };
