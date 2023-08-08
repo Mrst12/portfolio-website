@@ -9,7 +9,11 @@
     font-family: "Montserrat", sans-serif;
   }
   li {
-    @apply px-4;
+    @apply p-4;
     @apply cursor-pointer;
+    @apply hover:bg-hoveron;
+    @apply hover:rounded-md;
+    @apply hover:underline-offset-4;
+    @apply hover:underline decoration-black;
   }
 }
