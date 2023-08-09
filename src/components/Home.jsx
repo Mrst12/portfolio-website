@@ -25,7 +25,10 @@ const Home = () => {
           <h2 className="text-xl sm:text-3xl font-bold" data-aos="slide-left">
             Full Stack Developer
           </h2>
-          <p className="max-w-[700px] font-semibold py-4" data-aos="slide-up">
+          <p
+            className="max-w-[700px] sm:text-xl font-semibold py-4"
+            data-aos="slide-up"
+          >
             I'm a full stack web developer, particularly interested in front end
             development. Currently trying to perfect React and Tailwindcss.
           </p>
