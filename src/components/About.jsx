@@ -35,7 +35,7 @@ const About = () => {
               Databases
             </h2>
             <div className="flex flex-col items-center md:items-start">
-              <p>Postgres</p>
+              <p className="md:mt-2">Postgres</p>
               <p>SQL</p>
             </div>
           </div>
@@ -45,7 +45,7 @@ const About = () => {
               Frameworks
             </h2>
             <div className="flex flex-col items-center md:items-start">
-              <p>React</p>
+              <p className="md:mt-2">React</p>
               <p>Typescript</p>
               <p>Tailwindcss</p>
               <p>Django</p>
@@ -58,7 +58,7 @@ const About = () => {
               Version control
             </h2>
             <div className="flex flex-col items-center md:items-start">
-              <p>Git</p>
+              <p className="md:mt-2">Git</p>
               <p>GitHub</p>
             </div>
           </div>
