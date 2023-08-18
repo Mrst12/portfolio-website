@@ -16,6 +16,53 @@ const About = () => {
           I took a diploma in full stack web development. I am particularly
           interested in front end development as I love to see the final result.
         </p>
+        <h1 className="underline decoration-solid underline-offset-4">
+          Technologies I use
+        </h1>
+        {/*menu*/}
+        <div className="flex flex-col item-center justify-between mx-auto space-y-4 md:flex-row md:space-y-0 md:space-x-12 md:mt-6 md:items-start">
+          <div className="flex flex-col items-center w-full md:items-start">
+            <div className="flex flex-col items-center md:items-start md:mt-6">
+              <p>HTML</p>
+              <p>CSS</p>
+              <p>Javascript</p>
+              <p>Python</p>
+            </div>
+          </div>
+
+          <div className="flex flex-col items-center w-full md:items-start">
+            <h2 className="underline decoration-solid underline-offset-4">
+              Databases
+            </h2>
+            <div className="flex flex-col items-center md:items-start">
+              <p>Postgres</p>
+              <p>SQL</p>
+            </div>
+          </div>
+
+          <div className="flex flex-col items-center w-full md:items-start">
+            <h2 className="underline decoration-solid underline-offset-4">
+              Frameworks
+            </h2>
+            <div className="flex flex-col items-center md:items-start">
+              <p>React</p>
+              <p>Typescript</p>
+              <p>Tailwindcss</p>
+              <p>Django</p>
+              <p>Bootstrap</p>
+            </div>
+          </div>
+
+          <div className="flex flex-col items-center w-full md:items-start">
+            <h2 className="underline decoration-solid underline-offset-4">
+              Version control
+            </h2>
+            <div className="flex flex-col items-center md:items-start">
+              <p>Git</p>
+              <p>GitHub</p>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );
