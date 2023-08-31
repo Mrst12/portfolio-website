@@ -6,8 +6,10 @@ const About = () => {
       name="about"
       className="w-full h-screen bg-gradient-to-b from-cyan-100 to-cyan-500"
     >
-      <div className="flex flex-col justify-center items-center w- full h-full">
-        <h1 className="text-2xl sm:text-4xl font-bold mb-2">About Me</h1>
+      <div className="flex flex-col justify-center items-center">
+        <h1 className="underline decoration-solid underline-offset-4 text-xl sm:text-4xl font-bold mb-2">
+          About Me
+        </h1>
         <p className="max-w-[400px] sm:max-w-[700px] sm:text-xl font-semibold py-4">
           I am a junior full stack developer, I started with my journey to
           coding in 2020 as an escape from homeschooling in the evening during
@@ -16,7 +18,7 @@ const About = () => {
           I took a diploma in full stack web development. I am particularly
           interested in front end development as I love to see the final result.
         </p>
-        <h1 className="underline decoration-solid underline-offset-4">
+        <h1 className="underline decoration-solid underline-offset-4 text-xl sm:text-4xl font-bold mb-2">
           Technologies I use
         </h1>
         {/*menu*/}

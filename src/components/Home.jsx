@@ -8,7 +8,7 @@ AOS.init({
 
 const Home = () => {
   return (
-    <div className="w-full h-screen bg-gradient-to-b from-cyan-100 to-cyan-500">
+    <div className="w-full h-full bg-gradient-to-b from-cyan-100 to-cyan-500">
       <div className="max-w-[1500px] mx-auto px-4 flex flex-col items-center justify-center h-full md:flex-row">
         <div>
           <img
@@ -25,10 +25,7 @@ const Home = () => {
           <h2 className="text-xl sm:text-3xl font-bold" data-aos="slide-left">
             Full Stack Developer
           </h2>
-          <p
-            className="max-w-[700px] sm:text-xl font-semibold py-4"
-            data-aos="slide-up"
-          >
+          <p className="max-w-[700px] sm:text-xl font-semibold py-4">
             I'm a full stack web developer, particularly interested in front end
             development. Currently trying to perfect React and Tailwindcss.
           </p>
