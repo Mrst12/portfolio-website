@@ -1,4 +1,10 @@
 import React from "react";
+import sickChildrensTrust from "../assets/portfolio/sick-childrens-trust-project.png";
+import quizzical from "../assets/portfolio/quizzical-project.png";
+import shopApp from "../assets/portfolio/shop-app-project.png";
+import stepParentsUnite from "../assets/portfolio/step-parents-unite-project.png";
+import appyFamilies from "../assets/portfolio/appy-families-project.png";
+import misterT from "../assets/portfolio/mister-ts-website.png";
 
 const Portfolio = () => {
   return (
@@ -12,6 +18,7 @@ const Portfolio = () => {
             My Projects
           </h1>
         </div>
+        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4"></div>
       </div>
     </div>
   );
