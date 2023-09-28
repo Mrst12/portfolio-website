@@ -44,10 +44,10 @@ const Portfolio = () => {
             My Projects
           </h1>
         </div>
-        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4 mt-4">
+        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 mt-4">
           {portfolios.map(({ id, src }) => (
             <div key={id} className="rounded-lg">
-              <img src={src} alt="" className="rounded-md" />
+              <img src={src} alt="" className="rounded-md w-full h-52" />
               <div>
                 <button>Demo</button>
                 <button>Code</button>
