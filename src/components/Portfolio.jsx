@@ -123,7 +123,7 @@ const Portfolio = () => {
               <div className=" flex items-center justify-center">
                 <button className="p-4 border border-cyan-600 rounded-md bg-navigation m-4 hover:bg-hoveron">
                   <a href={live} target="_blank" rel="noreferrer">
-                    Live site
+                    Site
                   </a>
                 </button>
 
@@ -144,7 +144,10 @@ const Portfolio = () => {
       </div>
       {articles.map(({ id, webpage, title }) => (
         <>
-          <div key={id}>
+          <div
+            key={id}
+            className="hover:bg-navigation text-xl md:text-lg flex w-[77%] mx-auto rounded-lg p-12 md:px-0 border border-cyan-600 justify-center items-center m-6 bg-cyan-200"
+          >
             <a target="_blank" rel="noreferrer" href={webpage}>
               {title}
             </a>
