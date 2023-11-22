@@ -28,7 +28,7 @@ const Navbar = () => {
           Portfolio
         </li>
         <li className="hover:underline-offset-4 hover:underline decoration-black">
-          Experience
+          Achievements
         </li>
         <li className="hover:underline-offset-4 hover:underline decoration-black">
           Contact

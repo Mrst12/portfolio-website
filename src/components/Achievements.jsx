@@ -14,7 +14,7 @@ import machineLearning from "../assets/certificates/machine-learning.jpg";
 import pythonMooc from "../assets/certificates/python-mooc.jpg";
 import tailwind from "../assets/certificates/tailwind.jpg";
 
-const Experience = () => {
+const Achievements = () => {
   const certificates = [
     {
       id: 1,
@@ -89,12 +89,12 @@ const Experience = () => {
   ];
   return (
     <div
-      name="experience"
+      name="achievements"
       className="w-full h-full bg-gradient-to-b from-cyan-100 to-cyan-500 py-6"
     >
       <div className="flex items-center justify-center">
         <h1 className="underline decoration-solid underline-offset-4 text-xl sm:text-4xl font-bold mb-2">
-          Certificates
+          Achievements
         </h1>
       </div>
       <div className="grid sm:grid-cols-2 md:grid-cols-3">
@@ -122,4 +122,4 @@ const Experience = () => {
   );
 };
 
-export default Experience;
+export default Achievements;
