@@ -5,6 +5,7 @@ import Portfolio from "./components/Portfolio.jsx";
 import Achievements from "./components/Achievements.jsx";
 import Contact from "./components/Contact.jsx";
 import "aos/dist/aos.css";
+import Footer from "./components/Footer.jsx";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Portfolio />
       <Achievements />
       <Contact />
+      <Footer />
     </div>
   );
 }
