@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { FaBars, FaTimes, FaGithub, FaLinkedin } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
+import { Link } from "react-scroll";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -19,7 +20,9 @@ const Navbar = () => {
 
       <ul className="hidden md:flex">
         <li className="hover:underline-offset-4 hover:underline decoration-black">
-          Home
+          <Link to="home" smooth={true} duration={500}>
+            Home
+          </Link>
         </li>
         <li className="hover:underline-offset-4 hover:underline decoration-black">
           About
