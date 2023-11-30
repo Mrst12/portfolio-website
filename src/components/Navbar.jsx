@@ -24,17 +24,29 @@ const Navbar = () => {
             Home
           </Link>
         </li>
+
         <li className="hover:underline-offset-4 hover:underline decoration-black">
-          About
+          <Link to="about" smooth={true} duration={500}>
+            About
+          </Link>
         </li>
+
         <li className="hover:underline-offset-4 hover:underline decoration-black">
-          Portfolio
+          <Link to="portfolio" smooth={true} duration={500}>
+            Portfolio
+          </Link>
         </li>
+
         <li className="hover:underline-offset-4 hover:underline decoration-black">
-          Achievements
+          <Link to="achievements" smooth={true} duration={500}>
+            Achievements
+          </Link>
         </li>
+
         <li className="hover:underline-offset-4 hover:underline decoration-black">
-          Contact
+          <Link to="contact" smooth={true} duration={500}>
+            Contact
+          </Link>
         </li>
       </ul>
 
@@ -52,19 +64,43 @@ const Navbar = () => {
         }
       >
         <li className="py-6 text-4xl hover:underline-offset-4 hover:underline decoration-black">
-          Home
+          <Link onClick={handleClick} to="home" smooth={true} duration={500}>
+            Home
+          </Link>
         </li>
+
         <li className="py-6 text-4xl hover:underline-offset-4 hover:underline decoration-black">
-          About
+          <Link onClick={handleClick} to="about" smooth={true} duration={500}>
+            About
+          </Link>
         </li>
+
         <li className="py-6 text-4xl hover:underline-offset-4 hover:underline decoration-black">
-          Portfolio
+          <Link
+            onClick={handleClick}
+            to="portfolio"
+            smooth={true}
+            duration={500}
+          >
+            Portfolio
+          </Link>
         </li>
+
         <li className="py-6 text-4xl hover:underline-offset-4 hover:underline decoration-black">
-          Experience
+          <Link
+            onClick={handleClick}
+            to="achievements"
+            smooth={true}
+            duration={500}
+          >
+            Achievements
+          </Link>
         </li>
+
         <li className="py-6 text-4xl hover:underline-offset-4 hover:underline decoration-black">
-          Contact
+          <Link onClick={handleClick} to="contact" smooth={true} duration={500}>
+            Contact
+          </Link>
         </li>
       </ul>
 

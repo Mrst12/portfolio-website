@@ -3,7 +3,7 @@ import React from "react";
 const Contact = () => {
   return (
     <div
-      name="achievements"
+      name="contact"
       className="w-full h-full bg-gradient-to-b
       from-cyan-100 to-cyan-500 py-6"
     >
