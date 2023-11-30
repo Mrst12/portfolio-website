@@ -94,7 +94,7 @@ const Portfolio = () => {
   return (
     <div
       name="portfolio"
-      className="w-full h-full bg-gradient-to-b from-cyan-100 to-cyan-500 py-6"
+      className="w-full h-full bg-gradient-to-b from-cyan-100 to-cyan-500 py-6 pt-24"
     >
       <div className="justify-center items-center mx-auto w-[80%]">
         <div className="flex items-center justify-center">

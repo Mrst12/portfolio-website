@@ -10,7 +10,7 @@ const Home = () => {
   return (
     <div
       name="home"
-      className="w-full h-full bg-gradient-to-b from-cyan-100 to-cyan-500"
+      className="w-full h-full bg-gradient-to-b from-cyan-100 to-cyan-500 pt-10 pb-10"
     >
       <div className="max-w-[1500px] mx-auto px-4 flex flex-col items-center justify-center h-full md:flex-row">
         <div>
