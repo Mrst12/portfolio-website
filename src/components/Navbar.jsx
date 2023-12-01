@@ -38,6 +38,12 @@ const Navbar = () => {
         </li>
 
         <li className="hover:underline-offset-4 hover:underline decoration-black">
+          <Link to="articles" smooth={true} duration={500}>
+            Articles
+          </Link>
+        </li>
+
+        <li className="hover:underline-offset-4 hover:underline decoration-black">
           <Link to="achievements" smooth={true} duration={500}>
             Achievements
           </Link>
@@ -83,6 +89,17 @@ const Navbar = () => {
             duration={500}
           >
             Portfolio
+          </Link>
+        </li>
+
+        <li className="py-6 text-4xl hover:underline-offset-4 hover:underline decoration-black">
+          <Link
+            onClick={handleClick}
+            to="articles"
+            smooth={true}
+            duration={500}
+          >
+            Articles
           </Link>
         </li>
 

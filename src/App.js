@@ -6,6 +6,7 @@ import Achievements from "./components/Achievements.jsx";
 import Contact from "./components/Contact.jsx";
 import "aos/dist/aos.css";
 import Footer from "./components/Footer.jsx";
+import Articles from "./components/Articles.jsx";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Home />
       <About />
       <Portfolio />
+      <Articles />
       <Achievements />
       <Contact />
       <Footer />
