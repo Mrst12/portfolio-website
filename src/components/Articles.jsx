@@ -40,10 +40,10 @@ const Articles = () => {
     <div
       name="articles"
       className="w-full h-full bg-gradient-to-b
-  from-cyan-100 to-cyan-500 py-6 pt-24"
+  from-cyan-100 to-cyan-500 py-16"
     >
-      <div className="flex items-center justify-center">
-        <h1 className="underline decoration-solid underline-offset-4 text-xl sm:text-4xl font-bold mb-2">
+      <div className="flex items-center justify-center p-6 pt-20">
+        <h1 className="underline decoration-solid underline-offset-4 text-xl sm:text-4xl font-bold mb-2 mt-6">
           Articles
         </h1>
       </div>
