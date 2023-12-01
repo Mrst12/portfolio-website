@@ -4,9 +4,9 @@ const About = () => {
   return (
     <div
       name="about"
-      className="w-full h-full bg-gradient-to-b from-cyan-100 to-cyan-500 py-6 pt-20"
+      className="w-full h-full bg-gradient-to-b from-cyan-100 to-cyan-500 py-16 pt-20"
     >
-      <div className="flex flex-col justify-center items-center">
+      <div className="flex flex-col justify-center items-center p-16">
         <h1 className="underline decoration-solid underline-offset-4 text-xl sm:text-4xl font-bold mb-2 mt-3">
           About Me
         </h1>

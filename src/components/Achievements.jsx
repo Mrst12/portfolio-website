@@ -90,10 +90,10 @@ const Achievements = () => {
   return (
     <div
       name="achievements"
-      className="w-full h-full bg-gradient-to-b from-cyan-100 to-cyan-500 py-6 pt-24"
+      className="w-full h-full bg-gradient-to-b from-cyan-100 to-cyan-500 py-6 pt-20"
     >
       <div className="flex items-center justify-center">
-        <h1 className="underline decoration-solid underline-offset-4 text-xl sm:text-4xl font-bold mb-2">
+        <h1 className="underline decoration-solid underline-offset-4 text-xl sm:text-4xl font-bold mb-12 mt-16">
           Achievements
         </h1>
       </div>

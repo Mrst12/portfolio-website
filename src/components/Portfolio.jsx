@@ -60,11 +60,11 @@ const Portfolio = () => {
   return (
     <div
       name="portfolio"
-      className="w-full h-full bg-gradient-to-b from-cyan-100 to-cyan-500 py-6 pt-24"
+      className="w-full h-full bg-gradient-to-b from-cyan-100 to-cyan-500 py-20 pt-20"
     >
       <div className="justify-center items-center mx-auto w-[80%]">
         <div className="flex items-center justify-center">
-          <h1 className="underline decoration-solid underline-offset-4 text-xl sm:text-4xl font-bold mb-2">
+          <h1 className="underline decoration-solid underline-offset-4 text-xl sm:text-4xl font-bold mb-6 mt-10">
             Projects
           </h1>
         </div>
