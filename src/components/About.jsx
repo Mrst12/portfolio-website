@@ -11,12 +11,18 @@ const About = () => {
           About Me
         </h1>
         <p className="max-w-[400px] sm:max-w-[700px] sm:text-xl font-semibold py-4">
-          I am a junior full stack developer, I started with my journey to
-          coding in 2020 as an escape from homeschooling in the evening during
-          the first covid lockdown. I have a thirst for knowlege and so took a
-          bootcamp, after looking for a bit of direction to a new career change
-          I took a diploma in full stack web development. I am particularly
-          interested in front end development as I love to see the final result.
+          Taking a step aside from a career in hospitality, and then caring my
+          journey to coding started as an escape from homeschooling during the
+          first covid lockdown. My thirst for knowledge from my first encounter
+          with coding led me to a bootcamp and then onto a full stack web
+          development diploma. As a full time mum to 3 biological and 3 step
+          children my determination to succeed will hopefully show my children
+          that hard work and perserverance for something you love will win
+          through and give them a good work ethic. The skills I have learnt from
+          owning my own pizza takeaway, being a carer both to the elderly and 2
+          of my disabled step children stands me in good stead for the
+          challenges of a career change into the world of technology that
+          continues to evolve and keep us all on our toes.
         </p>
         <h1 className="underline decoration-solid underline-offset-4 text-xl sm:text-4xl font-bold mb-2">
           Technologies I use

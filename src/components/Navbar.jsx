@@ -33,7 +33,7 @@ const Navbar = () => {
 
         <li className="hover:underline-offset-4 hover:underline decoration-black">
           <Link to="portfolio" smooth={true} duration={500}>
-            Portfolio
+            Projects
           </Link>
         </li>
 
@@ -88,7 +88,7 @@ const Navbar = () => {
             smooth={true}
             duration={500}
           >
-            Portfolio
+            Projects
           </Link>
         </li>
 
@@ -144,7 +144,7 @@ const Navbar = () => {
               GitHub <FaGithub size={30} />
             </a>
           </li>
-          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6fc2b0] text-white border-b border-b-white">
+          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-green-600 text-white border-b border-b-white">
             <a
               className="flex justify-between items-center w-full "
               href="mailto:LisaTinmurth@hotmail.com"

@@ -30,7 +30,9 @@ const Home = () => {
           </h2>
           <p className="max-w-[700px] sm:text-xl font-semibold py-4">
             I'm a full stack web developer, particularly interested in front end
-            development. Currently trying to perfect React and Tailwindcss.
+            development. What magic can be created with JavaScript, React and
+            TailwindCSS its certainly where my passions lie seeing something
+            come from nothing.
           </p>
         </div>
       </div>
