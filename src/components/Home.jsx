@@ -1,10 +1,5 @@
 import React from "react";
 import profile from "../assets/profile.jpg";
-import AOS from "aos";
-
-AOS.init({
-  duration: 1000,
-});
 
 const Home = () => {
   return (
@@ -22,10 +17,8 @@ const Home = () => {
         </div>
 
         <div className="flex flex-col items-center justify-center h-full">
-          <h1 className="text-2xl sm:text-4xl font-bold" data-aos="slide-right">
-            Lisa Tinmurth
-          </h1>
-          <h2 className="text-xl sm:text-3xl font-bold" data-aos="slide-left">
+          <h1 className="text-2xl sm:text-4xl font-bold">Lisa Tinmurth</h1>
+          <h2 className="text-xl sm:text-3xl font-bold">
             Full Stack Developer
           </h2>
           <p className="max-w-[700px] sm:text-xl font-semibold py-4">
