@@ -18,7 +18,7 @@ const Navbar = () => {
 
       {/*menu*/}
 
-      <ul className="hidden md:flex">
+      <ul className="hidden md:hidden lg:flex">
         <li className="hover:underline-offset-4 hover:underline decoration-black">
           <Link to="home" smooth={true} duration={500}>
             Home
@@ -57,7 +57,7 @@ const Navbar = () => {
       </ul>
 
       {/*Hamburger*/}
-      <div onClick={handleClick} className="md:hidden z-10">
+      <div onClick={handleClick} className="lg:hidden z-10">
         {!nav ? <FaBars /> : <FaTimes />}
       </div>
 
