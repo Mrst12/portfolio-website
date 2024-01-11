@@ -4,6 +4,6 @@
 
 @layer base {
   body {
-    @apply overscroll-none;
+    @apply overflow-x-hidden;
   }
 }

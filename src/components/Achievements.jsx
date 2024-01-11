@@ -88,7 +88,7 @@ const Achievements = () => {
     },
   ];
   return (
-    <div name="achievements" className="w-full h-full py-6 pt-20">
+    <div name="achievements" className="w-full h-full bg-cyan-50 py-6 pt-20">
       <div className="flex items-center justify-center">
         <h1 className="underline decoration-solid underline-offset-4 text-xl sm:text-4xl font-bold mb-12 mt-16">
           Achievements
