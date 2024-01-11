@@ -15,14 +15,13 @@ const About = () => {
           journey to coding started as an escape from homeschooling during the
           first covid lockdown. My thirst for knowledge from my first encounter
           with coding led me to a bootcamp and then onto a full stack web
-          development diploma. As a full time mum to 3 biological and 3 step
-          children my determination to succeed will hopefully show my children
-          that hard work and perserverance for something you love will win
-          through and give them a good work ethic. The skills I have learnt from
-          owning my own pizza takeaway, being a carer both to the elderly and 2
-          of my disabled step children stands me in good stead for the
-          challenges of a career change into the world of technology that
-          continues to evolve and keep us all on our toes.
+          development diploma. As a full time mum my determination to succeed
+          will hopefully show my children that hard work and perserverance for
+          something you love will win through and give them a good work ethic.
+          The skills I have learnt from owning my own pizza takeaway, being a
+          carer both to the elderly and 2 of my disabled step children stands me
+          in good stead for the challenges of a career change into the world of
+          technology that continues to evolve and keep us all on our toes.
         </p>
         <h1 className="underline decoration-solid underline-offset-4 text-xl sm:text-4xl font-bold mb-2">
           Technologies I use
