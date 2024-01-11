@@ -88,10 +88,7 @@ const Achievements = () => {
     },
   ];
   return (
-    <div
-      name="achievements"
-      className="w-full h-full bg-gradient-to-b from-cyan-100 to-cyan-500 py-6 pt-20"
-    >
+    <div name="achievements" className="w-full h-full py-6 pt-20">
       <div className="flex items-center justify-center">
         <h1 className="underline decoration-solid underline-offset-4 text-xl sm:text-4xl font-bold mb-12 mt-16">
           Achievements
@@ -102,7 +99,7 @@ const Achievements = () => {
           <>
             <div
               key={id}
-              className="rounded-lg p-12 md:px-0 border border-cyan-600 justify-center items-center m-6 bg-cyan-200"
+              className="rounded-lg p-12 md:px-0 border border-cyan-600 justify-center items-center m-6"
             >
               <div className="flex rounded-md h-52 justify-center">
                 <img

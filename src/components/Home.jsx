@@ -3,10 +3,7 @@ import profile from "../assets/profile.jpg";
 
 const Home = () => {
   return (
-    <div
-      name="home"
-      className="w-full h-full bg-gradient-to-b from-cyan-100 to-cyan-500 pt-10 pb-16"
-    >
+    <div name="home" className="w-full h-full pt-10 pb-16">
       <div className="max-w-[1500px] mx-auto px-4 flex flex-col items-center justify-center h-full md:flex-row">
         <div>
           <img

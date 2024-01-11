@@ -39,8 +39,7 @@ const Articles = () => {
   return (
     <div
       name="articles"
-      className="w-full h-full bg-gradient-to-b
-  from-cyan-100 to-cyan-500 pt-16 pb-32"
+      className="w-full h-full bg-gradient-to-b from-cyan-100 to-cyan-200 pt-16 pb-32"
     >
       <div className="flex items-center justify-center p-6 pt-20">
         <h1 className="underline decoration-solid underline-offset-4 text-xl sm:text-4xl font-bold mb-2 mt-6">
@@ -53,7 +52,7 @@ const Articles = () => {
           <>
             <div
               key={id}
-              className="hover:bg-navigation text-xl md:text-lg flex w-[77%] mx-auto rounded-lg p-12 md:px-0 border border-cyan-600 justify-center items-center m-6 bg-cyan-200"
+              className="hover:bg-navigation text-xl md:text-lg flex w-[77%] mx-auto rounded-lg p-12 md:px-0 border border-cyan-600 justify-center items-center bg-white m-6"
             >
               <a target="_blank" rel="noreferrer" href={webpage}>
                 {title}
