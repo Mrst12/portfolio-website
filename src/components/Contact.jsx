@@ -10,8 +10,9 @@ const Contact = () => {
         <h1 className="underline decoration-solid underline-offset-4 text-xl sm:text-4xl font-bold mt-10 mb-6">
           Contact Me
         </h1>
+        <p>Temporarily unavailable</p>
       </div>
-
+      {/*
       <div className="flex rounded-lg p-12 md:px-0 border border-cyan-600 justify-center items-center m-6 bg-cyan-100 ">
         <form
           action="https://getform.io/f/aac39631-dfd3-4fb8-9edb-d45140c25379"
@@ -45,6 +46,7 @@ const Contact = () => {
           </button>
         </form>
       </div>
+  */}
     </div>
   );
 };
