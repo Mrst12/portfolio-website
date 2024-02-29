@@ -15,10 +15,15 @@ const Contact = () => {
 
       <div className="flex rounded-lg p-12 md:px-0 border border-cyan-600 justify-center items-center m-6 bg-cyan-100 ">
         <form
-          action="https://getform.io/f/aac39631-dfd3-4fb8-9edb-d45140c25379"
+          action="https://api.web3forms.com/submit"
           method="POST"
           className="flex flex-col w-full md:w-1/2"
         >
+          <input
+            type="hidden"
+            name="access_key"
+            value="030ac5d9-b1f1-4f8b-a326-db4fd6e0f9e0"
+          ></input>
           <input
             type="text"
             name="name"
