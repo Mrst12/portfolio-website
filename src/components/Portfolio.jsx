@@ -5,6 +5,7 @@ import shopApp from "../assets/portfolio/shop-app-project.png";
 import stepParentsUnite from "../assets/portfolio/step-parents-unite-project.png";
 import appyFamilies from "../assets/portfolio/appy-families-project.png";
 import misterT from "../assets/portfolio/mister-ts-website.png";
+import mamsTribute from "../assets/portfolio/mam-portfolio.jpg";
 
 const Portfolio = () => {
   const portfolios = [
@@ -54,6 +55,14 @@ const Portfolio = () => {
       live: "https://mistertsupvc.netlify.app/",
       description:
         "A website for Mister t's UPVC shop built using HTML, and CSS.",
+    },
+    {
+      id: 7,
+      src: mamsTribute,
+      github: "https://github.com/Mrst12/mams-tribute",
+      live: "https://mrst12.github.io/mams-tribute/",
+      description:
+        "A tribute website built for my late mam in law using HTML, Tailwindcss and JavaScript",
     },
   ];
 
