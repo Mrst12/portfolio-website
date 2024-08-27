@@ -52,7 +52,7 @@ const Portfolio = () => {
       id: 6,
       src: misterT,
       github: "https://github.com/Mrst12/mister-t-upvc",
-      live: "https://mistertsupvc.netlify.app/",
+      live: "https://mrst12.github.io/mister-t-upvc/",
       description:
         "A website for Mister t's UPVC shop built using HTML, and CSS.",
     },

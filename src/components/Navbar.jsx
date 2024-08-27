@@ -156,7 +156,7 @@ const Navbar = () => {
           </li>
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69] rounded-b-md text-white">
             <a
-              className="flex justify-between items-center w-full "
+              className="flex justify-between items-center w-full"
               href="/resume.pdf"
               target="_blank"
               rel="noreferrer"
